@@ -1,4 +1,4 @@
-<details><summary>how to run this projectgit </summary>
+<details><summary>how to run this project</summary>
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
@@ -37,3 +37,9 @@ The easiest way to deploy your Next.js app is to use the [Vercel Platform](https
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
 
 </details>
+
+# Example of the issue with `next/og` and `text-wrap: balance;` css property
+
+1. Run project
+2. Go to `http://localhost:3000/api/og` - The text should be centered, but it's shifted to the right when there is only on word.
+3. Go to `http://localhost:3000/api/og?title=Lorem%20ipsum%20dolor%20sit%20amet,%20consectetur%20adipiscing%20elit` - the text is formatted correctly
