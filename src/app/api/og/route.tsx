@@ -35,7 +35,6 @@ export async function GET(req: NextRequest): Promise<Response | ImageResponse> {
         >
           <div
             style={{
-              margin: "10vw",
               textWrap: "balance",
             }}
           >
